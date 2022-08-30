@@ -13,6 +13,12 @@
 		B81A797D28B91AF10018CE3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B81A797B28B91AF10018CE3B /* Main.storyboard */; };
 		B81A797F28B91AF20018CE3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B81A797E28B91AF20018CE3B /* Assets.xcassets */; };
 		B81A798228B91AF20018CE3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B81A798028B91AF20018CE3B /* LaunchScreen.storyboard */; };
+		B81A798C28B92B860018CE3B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81A798B28B92B860018CE3B /* SecondViewController.swift */; };
+		B81A798E28B92BB50018CE3B /* makeRounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81A798D28B92BB50018CE3B /* makeRounded.swift */; };
+		B81A799128B979FF0018CE3B /* ListaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81A798F28B979FF0018CE3B /* ListaTableViewCell.swift */; };
+		B81A799228B979FF0018CE3B /* ListaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B81A799028B979FF0018CE3B /* ListaTableViewCell.xib */; };
+		B81A799428B984660018CE3B /* RegisterTableViewCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81A799328B984660018CE3B /* RegisterTableViewCellProtocol.swift */; };
+		B81A79C728BD8AAB0018CE3B /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81A79C628BD8AAB0018CE3B /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		B81A797E28B91AF20018CE3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B81A798128B91AF20018CE3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B81A798328B91AF20018CE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B81A798B28B92B860018CE3B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		B81A798D28B92BB50018CE3B /* makeRounded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makeRounded.swift; sourceTree = "<group>"; };
+		B81A798F28B979FF0018CE3B /* ListaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaTableViewCell.swift; sourceTree = "<group>"; };
+		B81A799028B979FF0018CE3B /* ListaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListaTableViewCell.xib; sourceTree = "<group>"; };
+		B81A799328B984660018CE3B /* RegisterTableViewCellProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterTableViewCellProtocol.swift; sourceTree = "<group>"; };
+		B81A79C628BD8AAB0018CE3B /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +70,17 @@
 			children = (
 				B81A797528B91AF10018CE3B /* AppDelegate.swift */,
 				B81A797728B91AF10018CE3B /* SceneDelegate.swift */,
+				B81A798D28B92BB50018CE3B /* makeRounded.swift */,
 				B81A797928B91AF10018CE3B /* ViewController.swift */,
+				B81A798B28B92B860018CE3B /* SecondViewController.swift */,
+				B81A798F28B979FF0018CE3B /* ListaTableViewCell.swift */,
+				B81A799028B979FF0018CE3B /* ListaTableViewCell.xib */,
 				B81A797B28B91AF10018CE3B /* Main.storyboard */,
 				B81A797E28B91AF20018CE3B /* Assets.xcassets */,
 				B81A798028B91AF20018CE3B /* LaunchScreen.storyboard */,
 				B81A798328B91AF20018CE3B /* Info.plist */,
+				B81A799328B984660018CE3B /* RegisterTableViewCellProtocol.swift */,
+				B81A79C628BD8AAB0018CE3B /* ThirdViewController.swift */,
 			);
 			path = Gastos;
 			sourceTree = "<group>";
@@ -128,6 +146,7 @@
 				B81A798228B91AF20018CE3B /* LaunchScreen.storyboard in Resources */,
 				B81A797F28B91AF20018CE3B /* Assets.xcassets in Resources */,
 				B81A797D28B91AF10018CE3B /* Main.storyboard in Resources */,
+				B81A799228B979FF0018CE3B /* ListaTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +157,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B81A798C28B92B860018CE3B /* SecondViewController.swift in Sources */,
+				B81A799128B979FF0018CE3B /* ListaTableViewCell.swift in Sources */,
+				B81A799428B984660018CE3B /* RegisterTableViewCellProtocol.swift in Sources */,
 				B81A797A28B91AF10018CE3B /* ViewController.swift in Sources */,
 				B81A797628B91AF10018CE3B /* AppDelegate.swift in Sources */,
+				B81A798E28B92BB50018CE3B /* makeRounded.swift in Sources */,
+				B81A79C728BD8AAB0018CE3B /* ThirdViewController.swift in Sources */,
 				B81A797828B91AF10018CE3B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="72" id="KGk-i7-Jjw" customClass="ListaTableViewCell" customModule="Gastos" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="72"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="72"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0E7-jF-5Ga">
+                        <rect key="frame" x="16" y="12" width="48" height="48"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="48" id="9QI-U5-fea"/>
+                            <constraint firstAttribute="width" constant="48" id="cqU-uh-KXK"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hzQ-Jj-L3B">
+                        <rect key="frame" x="75" y="10" width="180" height="27"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="180" id="wx5-Sq-03q"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SinhalaSangamMN-Bold" family="Sinhala Sangam MN" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7LZ-Tr-Gu8">
+                        <rect key="frame" x="75" y="37" width="180" height="21.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="180" id="8Uw-4s-cPf"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SinhalaSangamMN" family="Sinhala Sangam MN" pointSize="16"/>
+                        <color key="textColor" red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Iv-0t-a4Z">
+                        <rect key="frame" x="255" y="10" width="49" height="27"/>
+                        <fontDescription key="fontDescription" name="SinhalaSangamMN-Bold" family="Sinhala Sangam MN" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iyV-uM-8HO">
+                        <rect key="frame" x="255" y="37" width="49" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="F0d-Md-2AX"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SinhalaSangamMN" family="Sinhala Sangam MN" pointSize="18"/>
+                        <color key="textColor" red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="0Iv-0t-a4Z" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="769-5V-8Lu"/>
+                    <constraint firstItem="0Iv-0t-a4Z" firstAttribute="leading" secondItem="hzQ-Jj-L3B" secondAttribute="trailing" id="8vu-8U-Iaq"/>
+                    <constraint firstItem="0E7-jF-5Ga" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="B1s-7p-eMY"/>
+                    <constraint firstAttribute="trailing" secondItem="iyV-uM-8HO" secondAttribute="trailing" constant="16" id="Bn7-ND-eUV"/>
+                    <constraint firstAttribute="trailing" secondItem="0Iv-0t-a4Z" secondAttribute="trailing" constant="16" id="HW9-e6-Fi2"/>
+                    <constraint firstAttribute="bottom" secondItem="0E7-jF-5Ga" secondAttribute="bottom" constant="12" id="SU6-lQ-ORV"/>
+                    <constraint firstItem="7LZ-Tr-Gu8" firstAttribute="leading" secondItem="0E7-jF-5Ga" secondAttribute="trailing" constant="11" id="V2H-GT-3if"/>
+                    <constraint firstItem="7LZ-Tr-Gu8" firstAttribute="top" secondItem="hzQ-Jj-L3B" secondAttribute="bottom" id="kFw-JW-ld5"/>
+                    <constraint firstItem="0E7-jF-5Ga" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="nZ0-n9-cdA"/>
+                    <constraint firstItem="iyV-uM-8HO" firstAttribute="top" secondItem="0Iv-0t-a4Z" secondAttribute="bottom" id="ra8-5q-TzE"/>
+                    <constraint firstItem="iyV-uM-8HO" firstAttribute="leading" secondItem="7LZ-Tr-Gu8" secondAttribute="trailing" id="son-PV-ggj"/>
+                    <constraint firstItem="hzQ-Jj-L3B" firstAttribute="leading" secondItem="0E7-jF-5Ga" secondAttribute="trailing" constant="11" id="vfA-WP-9NJ"/>
+                    <constraint firstItem="hzQ-Jj-L3B" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="x36-Nl-fGy"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="gastoLabel" destination="0Iv-0t-a4Z" id="8IP-WC-PsK"/>
+                <outlet property="horaGastoLabel" destination="iyV-uM-8HO" id="vcC-KN-4GA"/>
+                <outlet property="imagenProdImageView" destination="0E7-jF-5Ga" id="2QQ-a3-E7q"/>
+                <outlet property="productoLabel" destination="hzQ-Jj-L3B" id="Qoj-bV-87K"/>
+                <outlet property="tipoGastoLabel" destination="7LZ-Tr-Gu8" id="WGc-3c-kDb"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="75"/>
+        </tableViewCell>
+    </objects>
+</document>
